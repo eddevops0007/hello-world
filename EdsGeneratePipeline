@@ -5,7 +5,7 @@ import groovy.json.JsonSlurperClassic
 import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import java.net.URL
-
+echo "EdsGeneratePipeline Version 0005"
 echo "The ISPW Stream being used is: ${ISPW_Stream}"
 echo "The ISPW Application being used is: ${ISPW_Application}"
 echo "The ISPW Container being used is: ${ISPW_Container}"
@@ -14,7 +14,7 @@ echo "The ISPW SetID being used is: ${ISPW_SetId}"
 echo "The ISPW Release being used is: ${ISPW_Release}"
 echo "The ISPW Event being used is: ${ISPW_Event}"
 
-//  EdsGeneratePipeline Version 0004
+//  
 
 // Jenkins credential ID and CES Personal Access token to be used for mainframe access
 String Jenkins_Id        = "hdaelg0"      //Id that was created in Jenkins
